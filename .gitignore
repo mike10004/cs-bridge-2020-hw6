@@ -1,0 +1,5 @@
+cmake-build*/
+/stage/
+__pycache__/
+test-cases/
+*.pyc
