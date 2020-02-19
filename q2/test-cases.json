@@ -1,20 +1,14 @@
 {
-  "input": "{nombre}\n",
-  "input_file": "input-template.txt",
-  "expected": "Enter your name: {nombre}\nhello, {nombre}\n",
-  "expected_file": "expected-template.txt",
+  "input": "{n} {ch}\n",
   "param_names": [
-    "nombre"
+    "n",
+    "ch",
+    "output"
   ],
+  "expected": "Please enter the number of pine tree triangles and the symbol to draw them with:\n{n} {ch}\n{output}\n",
   "test_cases": [
-    [
-      "jane"
-    ],
-    [
-      "julia"
-    ],
-    [
-      "jennifer"
-    ]
+    [1, "*", " *\n***"],
+    [2, "^", "  ^\n ^^^\n  ^\n ^^^\n^^^^^"],
+    [3, "#", "   #\n  ###\n   #\n  ###\n #####\n   #\n  ###\n #####\n#######"]
   ]
 }
