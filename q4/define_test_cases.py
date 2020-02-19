@@ -7,11 +7,12 @@ def main():
     test_cases = []
     d = {
         'input': "{n}",
-        'expected': "Please enter a positive integer >= 2: {n}\n{divisors]\n",
+        'expected': "Please enter a positive integer >= 2: {n}\n{divisors} \n",
         'param_names': ["n", "divisors"],
         'test_cases': test_cases,        
     }
-    for n in [2, 3, 4, 5, 16, 27, 37, 51, 99, 100, 101, 256]:
+    #for n in [2, 3, 4, 5, 12, 16, 27, 51, 99, 100, 101, 256]:
+    for n in list(range(2, 101)) + [101, 169, 256, 333]:
         divisors = []
         for i in range(1, n + 1):
             if n % i == 0:
