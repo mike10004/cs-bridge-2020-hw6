@@ -6,9 +6,10 @@
     "output"
   ],
   "expected": "Please enter the number of pine tree triangles and the symbol to draw them with:\n{n} {ch}\n{output}\n",
+  "_COMMENT": "Only use characters that do not have special meaning for screen stuff command",
   "test_cases": [
     [1, "*", " *\n***"],
-    [2, "^", "  ^\n ^^^\n  ^\n ^^^\n^^^^^"],
-    [3, "#", "   #\n  ###\n   #\n  ###\n #####\n   #\n  ###\n #####\n#######"]
+    [2, "@", "  @\n @@@\n  @\n @@@\n@@@@@"],
+    [3, "Q", "   Q\n  QQQ\n   Q\n  QQQ\n QQQQQ\n   Q\n  QQQ\n QQQQQ\nQQQQQQQ"]
   ]
 }
