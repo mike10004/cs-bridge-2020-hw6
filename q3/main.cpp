@@ -1,5 +1,6 @@
-// <author>
-// Question 3
+// mac937@nyu.edu
+// CS Bridge Winter 2020
+// HW6 Question 3
 
 #include <iostream>
 

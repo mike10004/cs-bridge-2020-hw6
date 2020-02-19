@@ -1,4 +1,5 @@
 // mac937@nyu.edu
+// CS Bridge Winter 2020
 // HW6 Question 2
 
 #include <iostream>
