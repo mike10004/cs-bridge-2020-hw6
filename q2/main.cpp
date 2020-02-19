@@ -6,6 +6,8 @@
 
 using namespace std;
 
+// Prints a triangle of height numLines, filled with symbol characters, 
+// shifted bottomMarginSize spaces from the left margin.
 void printShiftedTriangle(int numLines, int bottomMarginSize, char symbol) {
     int maxNumSymbols = numLines * 2 - 1;
     for (int i = 1; i <= numLines; i++) {
@@ -21,6 +23,8 @@ void printShiftedTriangle(int numLines, int bottomMarginSize, char symbol) {
     }
 }
 
+// Prints a sequence of n triangles of increasing sizes populated with the 
+// given symbol, forming the shape of a pine tree.
 void printPineTree(int numTriangles, char symbol) {
     for (int i = 1; i <= numTriangles; i++) {
         int bottomMarginSize = numTriangles - i;

@@ -7,8 +7,8 @@
 
 using namespace std;
 
+// Computes the n-th element of the Fibonacci sequence
 int fib(int n) {
-    assert(n > 0);
     assert(n <= 46);  // die on int overflow
     if (n == 1 || n == 2) {
         return 1;

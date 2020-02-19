@@ -6,6 +6,7 @@
 
 using namespace std;
 
+// Approximates e to (n+1) terms in the infinite series 1 + 1/1! + 1/2! + 1/3! + ...
 double eApprox(int n) {
     double nFactorial = 1;
     double sum = 0;

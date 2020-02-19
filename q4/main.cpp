@@ -7,6 +7,7 @@
 
 using namespace std;
 
+// Prints the divisors of num in ascending order
 void printDivisors(int num) {
     double numSqrt = sqrt(num);
     int headStop = static_cast<int>(floor(numSqrt));
